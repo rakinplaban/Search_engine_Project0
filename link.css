@@ -8,5 +8,13 @@
 .jackel {
   border-radius: 20px;
   border-color: solid gray;
+  width: 600px;
+  height: 30px;
+}
+
+.timber {
+  position: relative;
+  left: 300px;
+  padding: 120px;
 }
 /*# sourceMappingURL=link.css.map */
