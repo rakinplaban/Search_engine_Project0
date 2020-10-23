@@ -1,18 +1,75 @@
 .linkcarrier{
-    padding: 0px 0px 100px 1183px;
+    padding: 0px 0px 100px 118px;
     right:0px;
     position: fixed;
     /*border:1px solid black;*/
 }
 
 .jackel{
+    border-width: 0.1px;
     border-radius: 20px;
-    border-color: solid gray;
+    border-color:  rgb(172, 157, 157);
     width: 600px;
-    height: 30px;
+    height: 40px;
+    left: 360px;
+    position: relative;
 }
 .timber{
     position: relative;
-    left:300px;
+    /*left:30px;*/
     padding: 120px;
+}
+
+.submitbtns{
+    position: relative;
+    padding:20px 400px;
+    left: 100px;
+}
+
+.submit{
+    background-color: #f5f5f5;
+    border: 1px solid #978a8a;
+    border-radius: 4px;
+    color: #6f8197;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.submit:hover{
+    box-shadow: 2px 1px 3px 3px;
+}
+
+.sbtn{
+    @extend .submit;
+    color:white;
+    background-color:#4d90fe;
+    width: 120px;
+    font-size: 10px;
+    font-weight: bold;
+    position: relative;
+    left:640px;
+    height:30px;
+}
+
+.mytab{
+    border-collapse: collapse;
+    td{
+        width: 250px;
+        height:40px;
+        input{
+            width: 500px;
+        }
+    }
+}
+.bttab{
+    width:1500px;
+    border-collapse: collapse;
 }
